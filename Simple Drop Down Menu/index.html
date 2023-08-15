@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Menu</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="header">
+        <img src="dropdown.png" alt="drop-down-logo" class="drop-down-logo">
+        <h1 class="header-heading">Shreyas' Simple Drop Down Menu</h1>
+    </section>
+
+    <section class="dropdown">
+        <h1 class="dropdown-definition">This is a dropdown Menu, not made using the traditional HTML select tag but
+            rather a combination of buttons and events triggered by clicks.</h1>
+        <div class="dropdown-container">
+            <div class="selected-element"><button class="btn trigger-dropdown" type="button" id="trigger-menu-button">
+                    <h2>- None - Selected</h2><h2>▼</h2>
+                </button></div>
+            <div class="dropdown-items">
+                <button class="invisible dropdown-item-btn item-none" type="button"><h3 class="dropdown-item">- None -</h3></button>
+                <button class="invisible dropdown-item-btn item-1" type="button"><h3 class="dropdown-item">Item 1</h3></button>
+                <button class="invisible dropdown-item-btn item-2" type="button"><h3 class="dropdown-item">Item 2</h3></button>
+                <button class="invisible dropdown-item-btn item-3" type="button"><h3 class="dropdown-item">Item 3</h3></button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

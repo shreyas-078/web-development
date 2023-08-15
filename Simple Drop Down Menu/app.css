@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: rgb(220, 225, 228);
+}
+
+.drop-down-logo {
+    height: 64px;
+    width: 64px;
+}
+
+.dropdown-definition {
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(170, 196, 219);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-heading{
+    font-size: 30px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.dropdown-container {
+    border: 3px solid rgb(6, 67, 121);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 300px;
+}
+
+.selected-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-items {
+    background-color: rgb(170, 196, 219);;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dropdown-items h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+.trigger-dropdown {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(170, 196, 219);
+    color: rgb(6, 67, 121);
+    border:0 solid black;
+    border-radius: 0;
+    width: 100%;
+}
+
+.trigger-dropdown:hover {
+    color: rgb(170, 196, 219);
+    background-color: rgb(6, 67, 121);
+    cursor: pointer;
+}
+
+.invisible {
+    display: none;
+}
+
+.dropdown-item-btn {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(170, 196, 219);
+    color: rgb(6, 67, 121);
+    border: 2px solid rgb(6, 67, 121);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.dropdown-item-btn:hover {
+    color: rgb(170, 196, 219);
+    background-color: rgb(6, 67, 121);
+    cursor: pointer;
+}
+
