@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: rgb(220, 225, 228);
+}
+
+.head {
+    font-size: 23px;
+    background-color: rgb(170, 196, 219);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.quiz-img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-option-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 5px solid rgb(6, 67, 121);
+    border-radius: 5px;
+    margin: 20px;
+    width: 40vw;
+}
+
+.question {
+    color: rgb(170, 196, 219);
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background-color: rgb(6, 67, 121);
+    margin: 0 0 20px 0;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    border: 2px solid rgb(6, 67, 121);
+    color: rgb(6, 67, 121);
+    background-color: rgb(170, 196, 219);
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    width: 150px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border: 2px solid rgb(170, 196, 219);
+    color: rgb(170, 196, 219);
+    background-color: rgb(6, 67, 121);
+    cursor: pointer;
+}
+
+.total-score {
+    color: rgb(170, 196, 219);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: rgb(6, 67, 121);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.option-4 {
+    margin-bottom: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

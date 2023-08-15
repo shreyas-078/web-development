@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Game</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="head">
+        <img src="question_mark.png" alt="quiz-img" class="quiz-img">
+        <h1>The Simple Quiz Game</h1>
+    </section>
+
+    <section class="hero">
+        <h1>Welcome! This is a simple Quiz App which asks 5 random pre-stored questions and tracks your score.</h1>
+        <div class="question-option-container">
+            <h2 class="question">Question: Placeholder</h2>
+            <div class="options">
+                <div class="option-1">
+                    <input type="radio" class="option-1 radio" name="options" id="option-1">
+                    <label class="option-1 label" for="option-1">Placeholder Text</label>
+                </div>
+                <div class="option-2">
+                    <input type="radio" class="option-2 radio" name="options" id="option-2">
+                    <label class="option-2 label" for="option-2">Placeholder Text</label>
+                </div>
+                <div class="option-3">
+                    <input type="radio" class="option-3 radio" name="options" id="option-3">
+                    <label class="option-3 label" for="option-3">Placeholder Text</label>
+                </div>
+                <div class="option-4">
+                    <input type="radio" class="option-4 radio" name="options" id="option-4">
+                    <label class="option-4 label" for="option-4">Placeholder Text</label>
+                </div>
+                <h3 class="helper-text invisible">Please select an option.</h3>
+                <div class="buttons-section">
+                    <button class="btn check-answer" type="button" id="check-answer">Check Answer ✔️</button>
+                    <button class="btn restart" type="button" onclick="window.location.reload();">Restart 🔃</button>
+                    <button class="btn next-question" type="button" id="next-question">Next question ⏭️</button>
+                </div>
+                
+                <h3 class="total-score">Your total score is: 0/5</h2>
+            </div>
+        </div>
+        <p>© Shreyas Salankimatt, 2023</p>
+    </section>
+    
+</body>
+
+</html>
