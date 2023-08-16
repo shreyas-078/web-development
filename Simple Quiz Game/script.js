@@ -79,14 +79,17 @@ function generateRandomQuestion() {
         alert("You're a genius! 🎉 🎊 Please restart to try more questions.");
         disableCheckAnswer();
         disableNextQuestion();
+        window.location.reload();
     } else if (totalScore > 0 && questionCount === 5) {
         alert("Restart to try again for a perfect score! ✅");
         disableCheckAnswer();
         disableNextQuestion();
+        window.location.reload();
     } else if(totalScore===0 && questionCount===5) {
         alert("You should work on your general knowledge ❌. Restart to try again");
         disableCheckAnswer();
         disableNextQuestion();
+        window.location.reload();
     }
 
     disableNextQuestion();
