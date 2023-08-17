@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700;6..96,900&display=swap");
+
+body {
+    color: rgb(30, 61, 89);
+    background-color: rgb(245, 240, 225);
+    margin: 0;
+    font-family: "Bodoni Moda", serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 7vw;
+    color: rgb(248, 222, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(30, 61, 89);
+}
+
+.header-heading {
+    font-size: 35px;
+    /* text-shadow: -1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red; */
+    /* border: 3px solid white;
+    border-radius: 25px; */
+    padding: 5px 10px 5px 10px;
+}
+
+.quote-img {
+    height: 64px;
+    width: 64px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.category-container {
+    margin: 0 5px 5px 5px;
+    padding: 20px;
+    /* border: 5px solid rgb(0, 0, 0); */
+    /* border-radius: 25px; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.hero {
+    /* background-image: url(/images/nature-bg.jpeg); */
+    position:fixed;
+    top: 7vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 93vw;
+}
+
+.btn {
+    background-color: rgb(30, 61, 89);
+    color: rgb(248, 222, 34);
+    height: 70px;
+    width: 230px;
+    border: 2px solid rgb(248, 222, 34);
+    border-radius: 25px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    text-shadow: none;
+    cursor: pointer;
+    background-color: rgb(248, 222, 34);
+    color: rgb(30, 61, 89);
+    border: 2px solid rgb(30, 61, 89);
+}
+
+.choices-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.category {
+    font-size: 50px;
+}
+
+.category-input {
+    margin-top: 10px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    /* height: 25px; */
+    width: 350px;
+    border: 3px solid black;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    background: transparent;
+}
+
+.category-input:focus {
+    outline: none;
+    font-family: "Bodoni Moda", serif;
+    color: rgb(30, 61, 89);
+    /* height: 25px; */
+}
+
+.category-input::placeholder {
+    color: rgb(90, 113, 132);
+    opacity: 40%;
+}
+
+.choice {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.choices-heading {
+    margin-bottom: 15px;
+}
+
+.invisible {
+    display: none;
+}
+
+.helper-text {
+    text-align: center;
+    color: rgb(255, 110, 64);
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+}
+
+.fixed-bottom-left {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}
+
+.quote {
+    position: fixed;
+    left: 20px;
+    top: 8vw;
+    width: 100%;
+    height: 20vw;
+}
+
+.quote-item {
+    margin-top: 0;
+    font-size: 90px;
+}
+
+.quote-author {
+    font-size: 40px;
+}
+
+.quote-image {
+    position: absolute;
+}
+
+.quote-white-text {
+    color: white;
+}
+
+.button-nature-quote {
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+} 
+
+.button-nature-quote:hover {
+    text-shadow: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.category-input-white {
+    margin-top: 10px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    width: 350px;
+    border: 3px solid white;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    background: transparent;
+}
+
+.category-input-white:focus {
+    outline: none;
+    font-family: "Bodoni Moda", serif;
+    color: white;
+}
+
+.category-input-white::placeholder {
+    color: rgb(207, 206, 206);
+    opacity: 40%;
+}

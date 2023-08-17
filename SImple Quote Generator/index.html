@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="./styles/app.css">
+    <script src="./scripts/script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="./images/white-quotation-marks.png">
+</head>
+
+<!-- Image Credits: 
+Ocean Deep Image: https://www.themarinediaries.com/tmd-blog/discovering-the-value-of-the-invaluable-deep-sea
+Self Image: https://www.istockphoto.com/photo/silhouette-man-with-arms-raised-into-sunset-sky-landscape-gm90642319-1130533
+Night Image: https://4kwallpapers.com/nature/night-landscape-10260.html
+Nature Image: https://wallspic.com/image/98238-grazing-green-fog-ecosystem-sky
+Life Image: https://www.istockphoto.com/photo/natural-photography-gm1289057883-384844179 -->
+
+<body>
+    <section class="header">
+        <img src="./images/white-quotation-marks.png" alt="quote-img" class="quote-img">
+        <h1 class="header-heading">Simple Quote Generator</h1>
+    </section>
+    <section class="hero">
+        <div class="quote invisible">
+            <h1 class="quote-item">Quote Text</h1>
+            <h2 class="quote-author">Quote Author Text</h2>
+        </div>
+        <h1 class="heading">This is a Random Quote Generator (pre-defined) that works based on category.</h1>
+        <div class="choices">
+            <h2 class="choices-heading">Some of the available choices are:</h2>
+            <ul class="choices-list">
+                <li class="choice choice-1">Nature</li>
+                <li class="choice choice-2">Night</li>
+                <li class="choice choice-3">Life</li>
+            </ul>
+        </div>
+        <div class="quote-controls">
+            <div class="category-container">
+                <h1 class="category">Enter a category: </h1>
+                <input type="text" class="category-input" placeholder="Nature, Night">
+            </div>
+            <h1 class="helper-text invisible">Please enter a valid Category</h1>
+            <div class="buttons">
+                <button type="button" class="btn generate-quote">Generate Quote</button>
+                <button type="button" class="btn similar-quote invisible">Generate Similar Quote</button>
+            </div>
+        </div>
+        <p class="copyright">© Shreyas Salankimatt, 2023</p>
+    </section>
+
+</body>
+
+</html>
