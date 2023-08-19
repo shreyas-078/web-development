@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700;6..96,900&display=swap");
+
+body {
+    margin: 0;
+    background-color: rgb(250, 240, 230);
+}
+
+.header {
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(53, 47, 68);
+    color: rgb(185, 180, 199);
+    display: flex;
+    gap: 0.7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-do-list-icon {
+    height: 64px;
+    width: 64px;
+}
+
+.header-heading {
+    font-size: 30px;
+}
+
+.task-name {
+    display: flex;
+    gap: 0.7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nothing-helper-text {
+    margin-top: 0;
+    color: red;
+}
+
+.date-controls {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.due-date {
+    margin-top: 0;
+}
+
+.date-selector {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    padding: 0.3rem;
+    border: 3px solid rgb(53, 47, 68);
+    border-radius: 1rem;
+    height: 1rem;
+    background-color: rgb(250, 240, 230);
+}
+
+.button-controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero {
+    font-family: "Libre Franklin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-do-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 30rem;
+    border: 5px solid rgb(53, 47, 68);
+    border-radius: 1rem;
+}
+
+.list-items-container {
+    border: 5px solid rgb(53, 47, 68);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.task-name-helper-text {
+    color: red;
+    margin-top: 0;
+}
+
+.date-helper-text {
+    color: red;
+    margin-top: 0;
+}
+
+.add-new-item {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.to-do-elements {
+    gap: 15px;
+    margin-left: 42.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm-clear-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 50vw;
+    width: 100vw;
+    background-color: black;
+    opacity: 50%;
+    z-index: 0;
+}
+
+.confirm-dialog-box {
+    width: 40rem;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 0 0 1rem 0;
+    border: 5px solid rgb(53, 47, 68);
+    border-radius: 2rem;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(250, 240, 230);
+    margin-bottom: 10rem;
+}
+
+.buttons-confirmation {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-confirm:hover {
+    cursor: pointer;
+}
+
+.new-task-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(53, 47, 68);
+    color: rgb(185, 180, 199);
+}
+
+.to-do-text {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(250, 240, 230);
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.to-do-text:focus {
+    outline: none;
+}
+
+.btn {
+    font-size: 14px;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 0.5rem;
+    border: 2px solid rgb(185, 180, 199);
+    border-radius: 0.7rem;
+    background-color: rgb(53, 47, 68);
+    color: rgb(185, 180, 199);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    font-size: 18px;
+    border-radius: 0.7rem;
+    background-color: rgb(185, 180, 199);
+    color: rgb(53, 47, 68);
+    border: 2px solid rgb(53, 47, 68);
+}
+
+.confirm-heading {
+    color: rgb(185, 180, 199);
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    background-color: rgb(53, 47, 68);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem 0 1rem 0;
+}
+
+#are-you-sure {
+    text-align: center;
+}
+
+.task-inner-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-item {
+    margin-bottom: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.task-heading {
+    font-size: 20px;
+    margin: 0;
+}
+
+.invisible {
+    display: none;
+}
+
+.task-heading:hover {
+    cursor: pointer;
+}
+
+.duplicate-element-helper-text {
+    margin-top: 0;
+}
