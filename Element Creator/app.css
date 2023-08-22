@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.body-header {
+    background-color: rgb(242, 238, 234);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.leaf-icon {
+    height: 64px;
+    width: 64px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.element-toolbox {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 25vw;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.name-info {
+    height: fit-content;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-info h4 {
+    margin: 0;
+    height: fit-content;
+}
+
+.element-name-helper-text {
+    margin: 0;
+    color: rgb(225, 77, 77);
+}
+
+.create-confirm {
+    align-self: center;
+    width: 50%;
+}   
+
+#element-toolbox-name {
+    background-color: black;
+    color: white;
+}
+
+.playground {
+    margin: 1rem;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+#playground-name {
+    background-color: black;
+    color: white;
+}
+
+.invisible {
+    display: none;
+}
+
+#red {
+    color: red;
+}
+
+.element-attribute-helper-text {
+    margin: 0;
+    color: rgb(225, 77, 77);
+}

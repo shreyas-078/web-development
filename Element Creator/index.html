@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Element Creator</title>
+    <link rel="stylesheet" href="./app.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="body-header">
+        <img src="./leaf-bg.png" alt="leaf-icon" class="leaf-icon">
+        <h1 class="main-heading">HTML Element Creator</h1>
+    </header>
+    <section class="main">
+        <h2 class="description">This is a simple Javascript OOP test application which is able to create
+            HTML elements with classes and a unique ID.<br> When adding attributes, make sure to comma separate them, for example:<br>
+        "value", "hello" (excluding quotes)</h2>
+        <button class="btn create-new-element">Create New Element</button>
+        <fieldset class="element-toolbox invisible">
+            <legend id="element-toolbox-name">NEW ELEMENT OPTIONS</legend>
+            <div class="name-info">
+                <label for="element-name">Enter Name of Element:</label><h4 id="red">*</h4>
+                <input id="element-name">
+            </div>
+            <p class="element-name-helper-text invisible">Please Enter Valid Element Name</p>
+            <div class="class-info">
+                <label for="element-class-name">Enter Class of Element:</label>
+                <input id="element-class-name">
+            </div>
+            <div class="id-info">
+                <label for="element-id-name">Enter Unique ID for Element:</label>
+                <input id="element-id-name">
+            </div>
+            <div class="attributes-info">
+                <label for="element-attributes">Enter Element Attributes (Comma Separated):</label>
+                <input id="element-attributes">
+            </div>
+            <p class="element-attribute-helper-text invisible">Please Enter Valid Number of attribute arguemnts.</p>
+            <div class="textcontent-info">
+                <label for="element-textcontent">Enter Element Text Content:</label>
+                <input id="element-textcontent">
+            </div>
+            <button class="btn create-confirm">Create Element with Specified Fields</button>
+        </fieldset>
+        <fieldset class="playground">
+            <legend id="playground-name">PLAYGROUND</legend>
+            <h2 id="created-elements-heading">Created Elements will appear here!</h2>
+            <div class="playground-div"></div>
+        </fieldset>
+        <button class="btn clear-playground">Clear Playground</button>
+        <p class="copyright">© Shreyas Salankimatt, 2023</p>
+    </section>
+</body>
+
+</html>
