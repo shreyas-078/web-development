@@ -130,7 +130,6 @@ function showToolBox() {
 function createNewElement() {
     const nameOfElement = document.querySelector("#element-name").value;
     const classOfElement = document.querySelector("#element-class-name").value;
-    const idOfElement = document.querySelector("#element-id-name").value;
     const attributes = document.querySelector("#element-attributes").value;
     const textContent = document.querySelector("#element-textcontent").value;
 
@@ -143,15 +142,14 @@ function createNewElement() {
     }
     //Can Add Attribute Validation Check but it becomes obsolete
     const attributeArray = attributes.split(',');
-    const newElement = new Element(nameOfElement, classOfElement, idOfElement, attributeArray, textContent);
+    const newElement = new Element(nameOfElement, classOfElement, attributeArray, textContent);
     newElement.render();
 }
 
 class Element {
-    constructor(nameOfElement, classesOfElement, idOfElement, attributeArray, textContent) {
+    constructor(nameOfElement, classesOfElement, attributeArray, textContent) {
         this.element = document.createElement(nameOfElement);
         this.element.className = classesOfElement;
-        this.idOfElement = idOfElement;
         this.attributeArray = attributeArray;
         this.element.textContent = textContent;
         if (attributeArray && attributeArray.length > 0 && attributeArray.length%2 === 0) {
