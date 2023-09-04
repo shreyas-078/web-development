@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+.header {
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-content {
+  background-color: rgb(240, 237, 233);
+  height: 70vh;
+  width: 70vw;
+  border: 0.6rem solid black;
+  border-radius: 0.8rem;
+}
+
+.time-items-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10rem;
+}
+
+.time-items {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+}
+
+.time-zone {
+  color: gray;
+  font-size: 4rem;
+}
+
+.time {
+  font-size: 10rem;
+}
+
+.day-date {
+  font-size: 5rem;
+}
+
+.edit-icon {
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn {
+  background-color: rgb(240, 237, 233);
+  margin: 0.5rem;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.zone-pick-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 0.4rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+label {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.timezone-modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 70%; 
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.timezone-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+.pick-zone-helper-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.apply-timezone {
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.apply-timezone:hover {
+  cursor: pointer;
+}
+
+select {
+  height: 100%;
+  width: 50%;
+  border: 0.3rem solid black;
+  border-radius: 1rem;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
