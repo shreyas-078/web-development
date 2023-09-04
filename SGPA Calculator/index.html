@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022 Scheme SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <section class="w-100 flex h-16 flex-row items-center justify-center bg-black align-middle text-white">
+      <h1 class="text-4xl">SGPA Calculator</h1>
+    </section>
+    <section class="main-content m-2 flex flex-col items-center align-middle">
+      <h1 class="text-2xl">Enter Your Marks:</h1>
+      <div class="subjects-container m-2 flex h-fit w-fit flex-col items-center justify-center rounded-lg border-2 border-solid border-black p-5 align-middle">
+        <div class="sub-1 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub1-marks">Subject 1:</label>
+          <input type="number" id="sub1-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 4</p>
+        </div>
+        <div class="sub-2 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub2-marks">Subject 2:</label>
+          <input type="number" id="sub2-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 4</p>
+        </div>
+        <div class="sub-3 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub3-marks">Subject 3:</label>
+          <input type="number" id="sub3-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 3</p>
+        </div>
+        <div class="sub-4 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub4-marks">Subject 4:</label>
+          <input type="number" id="sub4-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 3</p>
+        </div>
+        <div class="sub-5 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub5-marks">Subject 5:</label>
+          <input type="number" id="sub5-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 3</p>
+        </div>
+        <div class="sub-6 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub6-marks">Subject 6:</label>
+          <input type="number" id="sub6-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 1</p>
+        </div>
+        <div class="sub-7 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub7-marks">Subject 7:</label>
+          <input type="number" id="sub7-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 1</p>
+        </div>
+        <div class="sub-8 m-2 flex flex-row items-center justify-center gap-2 align-middle">
+          <label for="sub8-marks">Subject 8:</label>
+          <input type="number" id="sub8-marks" class="w-16 rounded-md border-2 border-solid border-black p-1" />
+          <p class="">Credits: 1</p>
+        </div>
+        <p class="valid-marks-helper-text font-bold text-red-600 invisible">Please enter valid marks</p>
+        <div class="buttons-container flex flex-row gap-3">
+          <button class="reset btn">Reset</button>
+          <button class="calculate-sgpa btn">Calculate</button>
+        </div>
+      </div>
+    </section>
+    <section class="sgpa-display flex flex-col items-center justify-center invisible">
+      <div class="sgpa-display w-fit rounded-xl border-2 border-solid border-black">
+        <h1 class="p-2 align-middle text-4xl your-sgpa-text">Your SGPA is: SGPA</h1>
+      </div>
+    </section>
+  </body>
+</html>

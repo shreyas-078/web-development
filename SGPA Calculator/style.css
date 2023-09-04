@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(226, 226, 215);
+}
+
+.invisible {
+  display: none;
+}
+
+.btn {
+  margin-top: 1rem;
+  transition: all 0.3s;
+  border: 0.15rem solid black;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: 0.15rem solid white;
+}
