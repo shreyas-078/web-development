@@ -33,7 +33,7 @@ const calculateSGPA = () => {
       credits = 1;
     }
     const currentMarks = document.querySelector(`#sub${i}-marks`).value;
-    if(currentMarks === "" || currentMarks < 0) {
+    if(currentMarks === "" || currentMarks < 0 || currentMarks > 100) {
       showValidHelperText();
       return;
     } else {
