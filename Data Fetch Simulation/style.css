@@ -1,0 +1,91 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.click-me {
+  margin: 1rem;
+}
+
+.btn {
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+  border: 0.2rem solid black;
+  border-radius: 0.7rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+.btn-small {
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+  border: 0.2rem solid black;
+  border-radius: 0.7rem;
+}
+
+.btn-small:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 27px;
+}
+
+.fetching {
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.invisible {
+  display: none;
+}

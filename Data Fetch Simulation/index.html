@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Fetch Simulation</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./fetch.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-heading">Data Fetch Simulation</h1>
+  </header>
+  <main class="main">
+    <form id="send-data-form">
+      <div class="container">
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+        <label for="description">Description:</label>
+        <textarea id="description"></textarea>
+        <button type="submit" class="btn-small submit">Send Data</button>
+      </div>
+    </form>
+    <div class="container" id="">
+      <h2 class="click-me">CLICK ME!</h2>
+      <button class="btn fetch-items">FETCH ITEMS</button>
+      <button class="btn clear-items">CLEAR ITEMS</button>
+      <h2 class="fetching invisible">Fetching....</h2>
+      <ul class="items-list">
+        <template id="item">
+          <li>
+            <div class="container">
+              <h3></h3>
+              <p></p>
+              <button class="btn-small">DELETE</button>
+            </div>
+          </li>
+        </template>
+      </ul>
+      <p class="program-description"></p>
+    </div>
+  </main>
+</body>
+<footer id="shreyas-logo">© Shreyas Salankimatt, 2023</footer>
+
+</html>
