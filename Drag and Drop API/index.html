@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <section class="header">
+    <h1 class="header-heading">Drag and Drop</h1>
+  </section>
+  <h2 class="description">This is a simple demonstration of the drag and drop API in JavaScript. Only Task 1 and Task 2
+    can be dragged into the boxes and not any other draggable elements. A Great use case for this API would be a more
+    Conplex To-Do List with Tasks being draggable.</h2>
+  <main>
+    <div class="active-stuff">
+      <h2 class="active-heading">Active Tasks</h2>
+      <div class="stuff-1" draggable="true" id="task1">
+        <h3 class="stuff-1-heading">Task 1</h3>
+        <p class="stuff-1-content">This is task 1</p>
+      </div>
+    </div>
+    <div class="done-stuff">
+      <h2 class="done-heading">Done Tasks</h2>
+      <div class="stuff-2" draggable="true" id="task2">
+        <h3 class="stuff-2-heading">Task 2</h3>
+        <p class="stuff-2-content">This is task 2</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p id="shreyas-salankimatt">© Shreyas Salankimatt</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+* {
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header-heading {
+  font-size: 3rem;
+  margin: 0.2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.description {
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-stuff {
+  width: fit-content;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+}
+
+.active-heading {
+  margin: 0;
+}
+
+.done-stuff {
+  width: fit-content;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+}
+
+.stuff-1 {
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.stuff-1-heading {
+  margin: 0;
+}
+
+.stuff-2 {
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.stuff-2-heading {
+  margin: 0;
+}
+
+.active {
+  background-color: pink;
+}
+
+.done-heading {
+  margin: 0;
+}
+
+#shreyas-salankimatt {
+  position: fixed;
+  bottom: 0.3rem;
+  left: 1rem;
+}
