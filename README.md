@@ -5,4 +5,4 @@ Tools Currently used in the Repo:
 1. HTML
 2. CSS
 3. Javascript
-4. npm (external node modules)
+4. External node modules
