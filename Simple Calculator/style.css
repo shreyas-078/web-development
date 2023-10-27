@@ -1,0 +1,91 @@
+* {
+  font-family: Helvetica;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: rgb(224, 166, 18);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(123, 125, 125);
+}
+
+.calc-body {
+  width: 500px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px solid rgb(64, 62, 62);
+  border-radius: 10px;
+}
+
+.calc-output {
+  font-weight: 100;
+  grid-column: span 4;
+  font-size: 3rem;
+  text-align: right;
+  background-color: rgb(77, 76, 77);
+  color: rgb(237, 237, 237);
+  border-radius: 10px 10px 0 0;
+}
+
+.zero-button {
+  grid-column: span 2;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 2rem;
+  border: 0.09rem solid rgb(54, 53, 53);
+  color: rgb(237, 237, 237);
+  background-color: rgb(100, 100, 100);
+  transition: 0.3s ease all;
+}
+
+.btn:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+.ac-button,
+.c-button,
+.percent-button {
+  background-color: rgb(69, 70, 69);
+}
+
+.division-button,
+.multiply-button,
+.add-button,
+.subtract-button,
+.equals-button {
+  background-color: rgb(254, 179, 39);
+}
+
+.division-button:hover,
+.multiply-button:hover,
+.add-button:hover,
+.subtract-button:hover,
+.equals-button:hover {
+  background-color: rgb(195, 117, 30);
+}
+
+.zero-button {
+  border-bottom-left-radius: 9px;
+}
+
+.equals-button {
+  border-bottom-right-radius: 9px;
+}
+
+.desc {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(224, 166, 18);
+}
