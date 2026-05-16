@@ -6,3 +6,4 @@ Tools Currently used in the Repo:
 2. CSS
 3. Javascript
 4. External node modules
+5. React (As of 2026, I have started practicing & publishing React Projects on this repository as well.)
