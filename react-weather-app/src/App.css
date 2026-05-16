@@ -1,0 +1,8 @@
+#tempsDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#hoursDiv {
+    margin-right: 2rem;
+}
